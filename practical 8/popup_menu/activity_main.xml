@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F3E5F5"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Example"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Show Menu"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7B1FA2"/>
+
+</LinearLayout>
